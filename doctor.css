@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #0078d7;
+  color: white;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+nav a.active {
+  font-weight: bold;
+}
+
+.doctor-info {
+  margin: 1rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+button {
+  background: #0078d7;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.message {
+  background: #dff0d8;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
